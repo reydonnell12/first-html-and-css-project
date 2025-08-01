@@ -17,8 +17,8 @@
       <nav class="navegacion-principal contenedor">
         <a href="/free_lancer/content/index.html">Inicio</a>
         <a href="/free_lancer/content/nosotros.html">Nosotros</a>
-        <a href="/free_lancer/content/frutas.html">Frutas</a>
-        <a href="/free_lancer/content/accesorios.html">Accesorios</a>
+        <a href="/free_lancer/content/tecnologia.html">Tecnología</a>
+        <a href="/free_lancer/content/scraping.html">scraping</a>
         <a href="/free_lancer/content/contacto.html">Contacto</a>
       </nav>
     </div>
@@ -40,92 +40,96 @@
       <h2 class="titulo">Servicios disponibles</h2>
 
       <div class="servicios">
-        <section>
+        <section class="servicio">
           <h3 class="titulo">Diseño Web</h3>
-          <p><img src="/free_lancer/img/globe.svg" alt="web" /></p>
+          <div class="icons">
+            <img src="/free_lancer/img/globe.svg" alt="web" />
+            <img src="/free_lancer/img/share-2.svg" alt="web" />
+          </div>
           <p>
-            esarrollamos sitios web modernos y funcionales, adaptados a la
-            identidad de tu marca. Nuestro enfoque se centra en crear
-            experiencias de usuario intuitivas y responsivas, garantizando que
-            tu presencia en línea sea atractiva y accesible desde cualquier
-            dispositivo, lo que fortalece tu imagen y alcanza a más clientes.
+            Desarrollamos sitios web modernos y funcionales, adaptados a tu
+            necesidad.
           </p>
         </section>
 
-        <section>
+        <section class="servicio">
           <h3 class="titulo">Bases de Datos</h3>
-          <p><img src="/free_lancer/img/database.svg" alt="database" /></p>
+          <div class="icons">
+            <img src="/free_lancer/img/database.svg" alt="database" />
+          </div>
           <p>
             Ofrecemos soluciones robustas para el diseño y la gestión de bases
-            de datos, asegurando que tu información esté organizada, segura y
-            accesible. Implementamos sistemas optimizados para el almacenamiento
-            y la consulta de datos, lo que permite a tu negocio tomar decisiones
-            informadas y gestionar sus operaciones de manera eficiente.
+            de datos.
           </p>
         </section>
 
-        <section>
+        <section class="servicio">
           <h3 class="titulo">Inteligencia Artificial</h3>
-          <p><img src="/free_lancer/img/user-check.svg" alt="Artificial" /></p>
+
+          <div class="icons">
+            <img src="/free_lancer/img/user-check.svg" alt="Artificial" />
+            <img src="/free_lancer/img/cpu.svg" alt="Artificial" />
+          </div>
           <p>
-            Creamos e implementamos soluciones de inteligencia artificial para
-            automatizar procesos y optimizar el rendimiento. Desde modelos de
-            aprendizaje automático hasta sistemas de análisis predictivo, te
-            ayudamos a aprovechar el poder de los datos para obtener una ventaja
-            competitiva, mejorar la eficiencia operativa y abrir nuevas
-            oportunidades de crecimiento.
+            Inteligencia artificial para automatizar procesos y optimizar el
+            rendimiento.
           </p>
         </section>
 
-        <section>
+        <section class="servicio">
           <h3 class="titulo">Servidores</h3>
-          <p><img src="/free_lancer/img/server.svg" alt="server" /></p>
+          <div class="icons">
+            <img src="/free_lancer/img/server.svg" alt="server" />
+          </div>
           <p>
             Proporcionamos servicios completos de configuración y mantenimiento
-            de servidores, garantizando la estabilidad y seguridad de tu
-            infraestructura tecnológica. Nos aseguramos de que tus aplicaciones
-            y sitios web funcionen sin interrupciones, con un rendimiento óptimo
-            y una protección sólida contra amenazas cibernéticas, lo que te da
-            tranquilidad total.
+            de servidores.
           </p>
         </section>
       </div>
       <!--Close of service-->
+
+      <section>
+        <h2 class="contacto">Contacto</h2>
+        <form class="formulario">
+          <fieldset>
+            <legend>Contactame si tienes dudas o inquietudes</legend>
+            <div class="formulario-campos">
+              <div class="campo">
+                <label>Nombre: </label>
+                <input class="input-text" type="text" placeholder="Nombre" />
+              </div>
+
+              <div class="campo">
+                <label>Teléfono: </label>
+                <input class="input-text" type="tel" placeholder="Telefono" />
+              </div>
+
+              <div class="campo">
+                <label>Email: </label>
+                <input class="input-text" type="email" placeholder="Email" />
+              </div>
+
+              <div class="campo">
+                <label>Mensaje: </label>
+                <textarea
+                  class="input-text"
+                  placeholder="escribe tu mensaje"
+                ></textarea>
+              </div>
+            </div>
+            <!--Fields Content-->
+            <div class="alinear-derecha">
+              <button class="boton w100" type="submit" value="Enviar">
+                Enviar
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </section>
     </main>
 
-    <section>
-      <h2>Contacto</h2>
-      <form>
-        <fieldset>
-          <legend>Contactame si tienes dudas o inquietudes</legend>
-          <div>
-            <label>Nombre: </label>
-            <input type="text" placeholder="Nombre" />
-          </div>
-
-          <div>
-            <label>Telefono: </label>
-            <input type="tel" placeholder="Telefono" />
-          </div>
-
-          <div>
-            <label>Email: </label>
-            <input type="email" placeholder="Email" />
-          </div>
-
-          <div>
-            <label>Mensaje: </label>
-            <textarea placeholder="escribe tu mensaje"></textarea>
-          </div>
-
-          <div>
-            <button type="submit" value="Enviar">Enviar</button>
-          </div>
-        </fieldset>
-      </form>
-    </section>
-
-    <footer>
+    <footer class="footer">
       <p>Todos los derechos reservados de REYDONNELL</p>
     </footer>
   </body>
